@@ -1,0 +1,917 @@
+<resources>
+    <string name="app_name">KIIT APP</string>
+
+
+    <string-array name="branch">
+        <item>CS</item>
+        <item>IT</item>
+    </string-array>
+    <string-array name="year">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+    </string-array>
+
+    <!--Note: changing sections here then change the number of sections at TeacherHomeActivity.java also-->
+
+    <string-array name="CS_Year_3">
+        <item>CS1</item>
+        <item>CS2</item>
+        <item>CS3</item>
+        <item>CS4</item>
+        <item>CS5</item>
+        <item>CS6</item>
+        <item>CS7</item>
+    </string-array>
+    <string-array name="CS_Year_2">
+        <item>CS1</item>
+        <item>CS2</item>
+        <item>CS3</item>
+        <item>CS4</item>
+        <item>CS5</item>
+        <item>CS6</item>
+        <item>CS7</item>
+        <item>CS8</item>
+    </string-array>
+    <string-array name="CS_Year_1">
+        <item>CS1</item>
+        <item>CS2</item>
+        <item>CS3</item>
+        <item>CS4</item>
+        <item>CS5</item>
+        <item>CS6</item>
+        <item>CS7</item>
+        <item>CS8</item>
+        <item>CS9</item>
+    </string-array>
+    <string-array name="IT_Year_3">
+        <item>IT1</item>
+        <item>IT2</item>
+        <item>IT3</item>
+        <item>IT4</item>
+        <item>IT5</item>
+        <item>IT6</item>
+        <item>IT7</item>
+    </string-array>
+    <string-array name="IT_Year_2">
+        <item>IT1</item>
+        <item>IT2</item>
+        <item>IT3</item>
+        <item>IT4</item>
+        <item>IT5</item>
+        <item>IT6</item>
+        <item>IT7</item>
+        <item>IT8</item>
+    </string-array>
+    <string-array name="IT_Year_1">
+        <item>IT1</item>
+        <item>IT2</item>
+        <item>IT3</item>
+        <item>IT4</item>
+        <item>IT5</item>
+        <item>IT6</item>
+        <item>IT7</item>
+        <item>IT8</item>
+        <item>IT9</item>
+    </string-array>
+
+    //school spinner atring array stars
+
+    <string-array name="schools">
+        <item>School of Computer Engineering</item>
+        <item>School of Computer Application</item>
+        <item>School of Electronics Engineering</item>
+        <item>School of Civil Engineering</item>
+        <item>School of Biotechnology</item>
+        <item>School of Mechanical Engineering</item>
+        <item>School of Chemical Technology</item>
+    </string-array>
+
+    //school spinner string array end
+
+
+    //faculty list view string array starts
+
+    //format of faculty info as name,designation,email,contact number,location
+    <string-array name="faculty_sce_1">
+        <item>Prof. Samaresh Mishra</item>
+        <item>Dean</item>
+        <item>smishrafcs@kiit.ac.in</item>
+        <item>12345</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_1</item>
+    </string-array>
+
+    <string-array name="faculty_sce_2">
+        <item>Prof. Ganga Bishnu Mund</item>
+        <item>Professor</item>
+        <item>mund@kiit.ac.in</item>
+        <item>54689</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_2</item>
+    </string-array>
+
+    <string-array name="faculty_sce_3">
+        <item>Prof. Madhabananda Das</item>
+        <item>Programme Head (M. Tech)</item>
+        <item>mndas_prof@kiit.ac.in</item>
+        <item>666666</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_3</item>
+    </string-array>
+
+    <string-array name="faculty_sce_4">
+        <item>Prof. Laxman Sahoo</item>
+        <item>Professor</item>
+        <item>mlaxmansahoo@yahoo.com</item>
+        <item>696969</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_4</item>
+    </string-array>
+
+    <string-array name="faculty_sce_5">
+        <item>Prof. Biswajit Sahoo</item>
+        <item>Professor</item>
+        <item>bsahoofcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_5</item>
+    </string-array>
+
+    <string-array name="faculty_sce_6">
+        <item>Prof. Prasant Kumar Pattnaik</item>
+        <item>Professor</item>
+        <item>patnaikprasant@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_6</item>
+    </string-array>
+
+    <string-array name="faculty_sce_7">
+        <item>Prof. Alok Kumar Jagadev</item>
+        <item>Professor</item>
+        <item>a_jagadev@yahoo.co.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_7</item>
+    </string-array>
+
+    <string-array name="faculty_sce_8">
+        <item>Prof. Kankana Chakrabarty</item>
+        <item>NA</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_8</item>
+    </string-array>
+
+    <string-array name="faculty_sce_9">
+        <item>Prof. Sudan Jha</item>
+        <item>Professor</item>
+        <item>jhasudan@hotmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_9</item>
+    </string-array>
+
+    <string-array name="faculty_sce_10">
+        <item>Prof. Santosh Kumar Swain</item>
+        <item>Professor</item>
+        <item>sswainfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_10</item>
+    </string-array>
+
+    <string-array name="faculty_sce_11">
+        <item>Prof. Bhabani Shankar Prasad Mishra</item>
+        <item>Associate Dean</item>
+        <item>bsmishrafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_11</item>
+    </string-array>
+
+    <string-array name="faculty_sce_12">
+        <item>Prof. Abhishek Ray</item>
+        <item>Professor</item>
+        <item>arayfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_12</item>
+    </string-array>
+
+    <string-array name="faculty_sce_13">
+        <item>Prof. Santosh K. Pani</item>
+        <item>Professor</item>
+        <item>spanifcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_13</item>
+    </string-array>
+
+    <string-array name="faculty_sce_14">
+        <item>Prof. Prachet Bhuyan</item>
+        <item>Professor</item>
+        <item>pbhuyanfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_14</item>
+    </string-array>
+
+    <string-array name="faculty_sce_15">
+        <item>Prof. Amuly Ratna Swain</item>
+        <item>Professor</item>
+        <item>swainamulya@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_15</item>
+    </string-array>
+
+    <string-array name="faculty_sce_16">
+        <item>Prof. Debarshi Kumar Sanyal</item>
+        <item>Professor</item>
+        <item>debarshisanyal@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_16</item>
+    </string-array>
+
+    <string-array name="faculty_sce_17">
+        <item>Prof. Monideepa Roy</item>
+        <item>Professor</item>
+        <item>monideepa.roy@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_17</item>
+    </string-array>
+
+    <string-array name="faculty_sce_18">
+        <item>Prof. Hrudaya Kumar Tripathy</item>
+        <item>Professor</item>
+        <item>hrudayakumar@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_18</item>
+    </string-array>
+
+    <string-array name="faculty_sce_19">
+        <item>Prof. Tanmaya Swain</item>
+        <item>Professor</item>
+        <item>swain_tanmaya@yahoo.co.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_19</item>
+    </string-array>
+
+    <string-array name="faculty_sce_20">
+        <item>Prof. Rajat Kumar Behera</item>
+        <item>Professor</item>
+        <item>rajat_behera@yahoo.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_20</item>
+    </string-array>
+
+    <string-array name="faculty_sce_21">
+        <item>Prof. Leena Das</item>
+        <item>Professor</item>
+        <item>ldasfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_21</item>
+    </string-array>
+
+    <string-array name="faculty_sce_22">
+        <item>Prof. Harish Kumar Patnaik</item>
+        <item>Professor</item>
+        <item>hpatnaikfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_22</item>
+    </string-array>
+
+    <string-array name="faculty_sce_23">
+        <item>Prof. Arup Abhinna Acharya</item>
+        <item>Professor</item>
+        <item>aacharyafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_23</item>
+    </string-array>
+
+    <string-array name="faculty_sce_24">
+        <item>Prof. Satrupa Mohanty</item>
+        <item>Professor</item>
+        <item>satarupa_mohanty@yahoo.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_24</item>
+    </string-array>
+
+    <string-array name="faculty_sce_25">
+        <item>Prof. Namita Panda</item>
+        <item>Professor</item>
+        <item>npandafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_25</item>
+    </string-array>
+
+    <string-array name="faculty_sce_26">
+        <item>Prof. Nachiketa Tarasia</item>
+        <item>Head-EAM</item>
+        <item>ntarasiafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_26</item>
+    </string-array>
+
+    <string-array name="faculty_sce_27">
+        <item>Prof. Subhasis Dash</item>
+        <item>Professor</item>
+        <item>sdasfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_27</item>
+    </string-array>
+
+    <string-array name="faculty_sce_28">
+        <item>Prof. Kumar Devdutta</item>
+        <item>Professor</item>
+        <item>kdevduttafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_28</item>
+    </string-array>
+
+    <string-array name="faculty_sce_29">
+        <item>Prof. Rajeev Ranjan</item>
+        <item>Professor</item>
+        <item>r.ranjan296@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_29</item>
+    </string-array>
+
+    <string-array name="faculty_sce_30">
+        <item>Prof. Anshul Verma</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_30</item>
+    </string-array>
+
+    <string-array name="faculty_sce_31">
+        <item>Prof. Minakhi Rout</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_31</item>
+    </string-array>
+
+    <string-array name="faculty_sce_32">
+        <item>Prof. Pradeep Kumar Biswal</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_32</item>
+    </string-array>
+
+    <string-array name="faculty_sce_33">
+        <item>Prof. Jitendra Kumar Rout</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_33</item>
+    </string-array>
+
+    <string-array name="faculty_sce_34">
+        <item>Prof. Bindu Agarwal</item>
+        <item>Professor</item>
+        <item>bindu_agarwl@yahoo.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_34</item>
+    </string-array>
+
+    <string-array name="faculty_sce_35">
+        <item>Prof. Suneeta Mohanty</item>
+        <item>Professor</item>
+        <item>smohantyfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_35</item>
+    </string-array>
+
+    <string-array name="faculty_sce_36">
+        <item>Prof. Manoj Kumar Mishra</item>
+        <item>Professor</item>
+        <item>kumarmanoj.mishra@yahoo.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_36</item>
+    </string-array>
+
+    <string-array name="faculty_sce_37">
+        <item>Prof. Siddharth Swarup Routaray</item>
+        <item>Professor</item>
+        <item>sr.rgpv@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_37</item>
+    </string-array>
+
+    <string-array name="faculty_sce_38">
+        <item>Prof. Manas Ranjan Lenka</item>
+        <item>Professor</item>
+        <item>manas_y2k3@yahoo.co.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_38</item>
+    </string-array>
+
+    <string-array name="faculty_sce_39">
+        <item>Prof. Chittaranjan Pradhan</item>
+        <item>Professor</item>
+        <item>chitaprakash@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_39</item>
+    </string-array>
+
+    <string-array name="faculty_sce_40">
+        <item>Prof. Jayanti Dansana</item>
+        <item>Professor</item>
+        <item>id-jayantifcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_40</item>
+    </string-array>
+
+    <string-array name="faculty_sce_41">
+        <item>Prof. Anuja Kumar Acharya</item>
+        <item>Professor</item>
+        <item>anuja.signin@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_41</item>
+    </string-array>
+
+    <string-array name="faculty_sce_42">
+        <item>Prof. Debabala Swain</item>
+        <item>Professor</item>
+        <item>debabala.swain@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_42</item>
+    </string-array>
+
+    <string-array name="faculty_sce_43">
+        <item>Prof. Mahendra Kumar Gourisaria</item>
+        <item>Professor</item>
+        <item>mkgourisariafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_43</item>
+    </string-array>
+
+    <string-array name="faculty_sce_44">
+        <item>Prof. Pinaki Sankar Chatterjee</item>
+        <item>Professor</item>
+        <item>pinaki.sankar.chatterjee@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_44</item>
+    </string-array>
+
+    <string-array name="faculty_sce_45">
+        <item>Prof. Anil Kumar Swain</item>
+        <item>Professor</item>
+        <item>anilkumarswain@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_45</item>
+    </string-array>
+
+    <string-array name="faculty_sce_46">
+        <item>Prof. Debashis Hati</item>
+        <item>Professor</item>
+        <item>debashis.hati@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_46</item>
+    </string-array>
+
+    <string-array name="faculty_sce_47">
+        <item>Prof. Jagannath Singh</item>
+        <item>Professor</item>
+        <item>jagannath.singhfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_47</item>
+    </string-array>
+
+    <string-array name="faculty_sce_48">
+        <item>Prof. Manjusha Pandey</item>
+        <item>Professor</item>
+        <item>manjushapandey82@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_48</item>
+    </string-array>
+
+    <string-array name="faculty_sce_49">
+        <item>Prof. Aurobindo Kar</item>
+        <item>Professor</item>
+        <item>aurobindo.karfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_49</item>
+    </string-array>
+
+    <string-array name="faculty_sce_50">
+        <item>Prof. Mamata Motwani</item>
+        <item>Professor</item>
+        <item>k_shalu@yahoo.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_50</item>
+    </string-array>
+
+    <string-array name="faculty_sce_51">
+        <item>Prof. R. N. Ramakant Parida</item>
+        <item>Professor</item>
+        <item>rparidafcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_51</item>
+    </string-array>
+
+    <string-array name="faculty_sce_52">
+        <item>Prof. Sujoy Datta</item>
+        <item>Professor</item>
+        <item>sjdatta88@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_52</item>
+    </string-array>
+
+    <string-array name="faculty_sce_53">
+        <item>Prof. Pradeep Kandula</item>
+        <item>Professor</item>
+        <item>pradeepkandula@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_53</item>
+    </string-array>
+
+    <string-array name="faculty_sce_54">
+        <item>Prof. Rajdeep Chatterjee</item>
+        <item>Professor</item>
+        <item>cse.rajdeep@gmil.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_54</item>
+    </string-array>
+
+    <string-array name="faculty_sce_55">
+        <item>Prof. Lalit Kumar Vashishtha</item>
+        <item>Professor</item>
+        <item>lalitkvashishtha@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_55</item>
+    </string-array>
+
+    <string-array name="faculty_sce_56">
+        <item>Prof. Suresh Chandra Moharana</item>
+        <item>Professor</item>
+        <item>sureshmoharana@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_56</item>
+    </string-array>
+
+    <string-array name="faculty_sce_57">
+        <item>Prof. Sital Dash</item>
+        <item>Professor</item>
+        <item>sital_cet@rediffmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_57</item>
+    </string-array>
+
+    <string-array name="faculty_sce_58">
+        <item>Prof. Sachi Nandan Mohanty</item>
+        <item>Professor</item>
+        <item>snmohantyfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_58</item>
+    </string-array>
+
+    <string-array name="faculty_sce_59">
+        <item>Prof. Himansu Das</item>
+        <item>Professor</item>
+        <item>das.himansu2007@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_59</item>
+    </string-array>
+
+    <string-array name="faculty_sce_60">
+        <item>Prof. Nalini Parava Behera</item>
+        <item>Professor</item>
+        <item>nalini.behera@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_60</item>
+    </string-array>
+
+    <string-array name="faculty_sce_61">
+        <item>Prof. Santwana Sangika</item>
+        <item>Professor</item>
+        <item>santu.hmm@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_61</item>
+    </string-array>
+
+    <string-array name="faculty_sce_62">
+        <item>Prof. Suchismita Das</item>
+        <item>Professor</item>
+        <item>sd.suchi@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_62</item>
+    </string-array>
+
+    <string-array name="faculty_sce_63">
+        <item>Prof. Shaswati Patra</item>
+        <item>(On Study Leave from 29.12.2016 F.N.)</item>
+        <item>shaspatipatra@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_63</item>
+    </string-array>
+
+    <string-array name="faculty_sce_64">
+        <item>Prof. Amiya Kumar Dash</item>
+        <item>Professor</item>
+        <item>dash.amiya.k@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_64</item>
+    </string-array>
+
+    <string-array name="faculty_sce_65">
+        <item>Prof. Arup Sarkar</item>
+        <item>Professor</item>
+        <item>it.arup@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_65</item>
+    </string-array>
+
+    <string-array name="faculty_sce_66">
+        <item>Prof. Abhaya Kumar Sahoo</item>
+        <item>Professor</item>
+        <item>abhayakumarsahoo2012@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_66</item>
+    </string-array>
+
+    <string-array name="faculty_sce_67">
+        <item>Ms. Aleena Swetapadma</item>
+        <item>Professor</item>
+        <item>aleena.swetapadma@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_67</item>
+    </string-array>
+
+    <string-array name="faculty_sce_68">
+        <item>Prof. Ashutosh Behura</item>
+        <item>Professor</item>
+        <item>ashutoshfcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_68</item>
+    </string-array>
+
+    <string-array name="faculty_sce_69">
+        <item>Prof. Sarita Tripathy</item>
+        <item>Professor</item>
+        <item>saritamailbox@yahoo.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_69</item>
+    </string-array>
+
+    <string-array name="faculty_sce_70">
+        <item>Prof. Roshni Pradhan</item>
+        <item>Professor</item>
+        <item>pradhan.roshni123@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_70</item>
+    </string-array>
+
+    <string-array name="faculty_sce_71">
+        <item>Prof. Bhaswati Sahoo</item>
+        <item>Professor</item>
+        <item>bhaswati.sahoofcs@kiit.ac.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_71</item>
+    </string-array>
+
+    <string-array name="faculty_sce_72">
+        <item>Prof. Tapas Kumar Mishra</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_72</item>
+    </string-array>
+
+    <string-array name="faculty_sce_73">
+        <item>Prof. Ronali Pandhy</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_73</item>
+    </string-array>
+
+    <string-array name="faculty_sce_74">
+        <item>Prof. Adyasha Dash</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_74</item>
+    </string-array>
+
+    <string-array name="faculty_sce_75">
+        <item>Prof. Krishna Chakravarty</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_75</item>
+    </string-array>
+
+    <string-array name="faculty_sce_76">
+        <item>Prof. Tanusree Parbat</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_76</item>
+    </string-array>
+
+    <string-array name="faculty_sce_77">
+        <item>Prof. Niranjan Kumar Ray</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_77</item>
+    </string-array>
+
+    <string-array name="faculty_sce_78">
+        <item>Prof. M. Nazma B. J. Naskar</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_78</item>
+    </string-array>
+
+    <string-array name="faculty_sce_79">
+        <item>Prof. Jyotismita Chaki</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_79</item>
+    </string-array>
+
+    <string-array name="faculty_sce_80">
+        <item>Prof. N. Biraja Isac</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_80</item>
+    </string-array>
+
+    <string-array name="faculty_sce_81">
+        <item>Prof. Tanmoy Maitra</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_81</item>
+    </string-array>
+
+    <string-array name="faculty_sce_82">
+        <item>Mr. Ajay Kumar Jena</item>
+        <item>Professor</item>
+        <item>ajay.bbs.in@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_82</item>
+    </string-array>
+
+    <string-array name="faculty_sce_83">
+        <item>Ms. Divya Kumari</item>
+        <item>Professor</item>
+        <item>divya.nou30@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_83</item>
+    </string-array>
+
+    <string-array name="faculty_sce_84">
+        <item>Mr. Jay Sarraf</item>
+        <item>Professor</item>
+        <item>jaysarraf596@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_84</item>
+    </string-array>
+
+    <string-array name="faculty_sce_85">
+        <item>Mr. Somenath Bera</item>
+        <item>Professor</item>
+        <item>somenath_bera_04@yahoo.co.in</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_85</item>
+    </string-array>
+
+    <string-array name="faculty_sce_86">
+        <item>Mr. Saurabh Bilgaiyan</item>
+        <item>Professor</item>
+        <item>saurabhbilgaiyan01@gmail.com</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_86</item>
+    </string-array>
+
+    <string-array name="faculty_sce_87">
+        <item>Ms. Nishita Kindo</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_87</item>
+    </string-array>
+
+    <string-array name="faculty_sce_88">
+        <item>Ms. Tulasi Ambasha Patnaik</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_88</item>
+    </string-array>
+
+    <string-array name="faculty_sce_89">
+        <item>Mr. Sagar Patnaik</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_89</item>
+    </string-array>
+
+    <string-array name="faculty_sce_90">
+        <item>Mr. Gananath Bhuyan</item>
+        <item>Professor</item>
+        <item>NA</item>
+        <item>69669546</item>
+        <item>F-01,Ground Floor,School of Computer Engg.,Campus-15</item>
+        <item>img_sce_90</item>
+    </string-array>
+
+    //faculty list view string array ends
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_teacher_signup_sign_in">TeacherSignupSignInActivity</string>
+    <string name="title_activity_teacher_home">TeacherHomeActivity</string>
+</resources>

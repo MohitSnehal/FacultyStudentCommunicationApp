@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profileItem"
+            android:icon="@drawable/profile_item"
+            android:title="Profile" />
+        <item
+            android:id="@+id/inboxItem"
+            android:icon="@drawable/inbox_item"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/findFaciltyDetailsItem"
+            android:icon="@drawable/faculty_detail_item"
+            android:title="Find faculty details" />
+        <item
+            android:id="@+id/timetableItem"
+            android:icon="@drawable/time_table_item"
+            android:title="Time Table" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/signoutItem"
+                android:icon="@drawable/sign_out_item"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

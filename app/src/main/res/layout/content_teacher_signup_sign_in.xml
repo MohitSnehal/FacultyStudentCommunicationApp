@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.anuj_ilm.connect_2.TeacherSignupSignInActivity"
+    tools:showIn="@layout/activity_teacher_signup_sign_in">
+
+    <RelativeLayout
+        android:id="@+id/tRootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/tImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/side_nav_bar">
+
+            <ImageView
+                android:id="@+id/tSignUpImageView"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kiitlogosquare" />
+        </RelativeLayout>
+
+        <!-- Sign in layout starts -->
+
+        <RelativeLayout
+            android:id="@+id/tSignInLayout"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/corner"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginVertical="50dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/teachersUsernameSignIn"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="10dp"
+                        android:ems="10"
+                        android:hint="Username"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/mailTextSignIn"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="&#64;kiit.ac.in"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:id="@+id/emailImageViewSignIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="5dp"
+                        app:srcCompat="@drawable/email" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/teachersPasswordSignIn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:hint="Password" />
+
+                    <ImageView
+                        android:id="@+id/showPasswordButtonSignIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:onClick="showPasswordSignIn"
+                        app:srcCompat="@drawable/pswd" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Sign in layout ends -->
+
+        <!-- Sign up layout starts -->
+
+        <RelativeLayout
+            android:id="@+id/tSignUpLayout"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/corner"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:visibility="invisible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+
+                    <EditText
+                        android:id="@+id/teachersNameSignUp"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="10dp"
+                        android:ems="10"
+                        android:hint="Name"
+                        android:inputType="textPersonName" />
+
+                    <ImageView
+                        android:id="@+id/teahersNameSignUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        app:srcCompat="@drawable/user" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/teachersUsernameSignUp"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="10dp"
+                        android:ems="10"
+                        android:hint="Username"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/mailText"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="&#64;kiit.ac.in"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:id="@+id/emailImageViewSignUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="5dp"
+                        app:srcCompat="@drawable/email" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/teachersPasswordSignUp"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:hint="Password"/>
+
+                    <ImageView
+                        android:id="@+id/showPasswordButtonSignUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:onClick="showPasswordSignUp"
+                        app:srcCompat="@drawable/pswd" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/tSignInButton"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tSignInLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/signupbuttoninside"
+            android:onClick="teachersSignInFunction"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/tSignUpButton"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tSignUpLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/signupbuttoninside"
+            android:onClick="teachersSignUpFunction"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tLayoutSwitchSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tSignUpButton"
+            android:onClick="tGoToSignInLayout"
+            android:text="Already a user?"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tLayoutSwitchSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tSignInButton"
+            android:text="Not a user ? Register"
+            android:onClick="tGoToSignUpLayout"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

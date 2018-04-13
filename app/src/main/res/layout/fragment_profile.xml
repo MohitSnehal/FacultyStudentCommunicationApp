@@ -1,0 +1,191 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anuj_ilm.connect_2.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/side_nav_bar">
+
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profilePictureImageView"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_below="@+id/imageLayout"
+            android:src="@drawable/male"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-65dp"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="3dp"
+            android:onClick="uploadProfilePicture"/>
+
+        <!--onClick of imageView in profileFragment.java file -->
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="XXXXX"
+            android:id="@+id/usernameField"
+            android:layout_below="@+id/profilePictureImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:id="@+id/facultyDetailsDesignationField"
+            android:layout_below="@+id/usernameField"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facultyDetailsDesignationField"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="9dp"
+            android:id="@+id/facultyDetailsEmailFrame"
+            android:padding="10dp"
+            android:background="@drawable/framelayoutcorners">
+
+            <TextView
+                android:id="@+id/sectionframetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Section"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sectionField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="XXXXX"
+                android:textColor="#40a5ed"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facultyDetailsEmailFrame"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="9dp"
+            android:id="@+id/facultyDetailsContactFrame"
+            android:padding="10dp"
+            android:background="@drawable/framelayoutcorners">
+
+            <TextView
+                android:id="@+id/rollFieldTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Roll Number"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/rollNumberField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="XXXXX"
+                android:textColor="#40a5ed"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facultyDetailsContactFrame"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="9dp"
+            android:id="@+id/facultyDetailsLocationFrame"
+            android:padding="10dp"
+            android:background="@drawable/framelayoutcorners">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch"
+                android:id="@+id/branchframetitle"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/branchField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="XXXXX"
+                android:textColor="#40a5ed"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facultyDetailsLocationFrame"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="9dp"
+            android:id="@+id/yearframe"
+            android:padding="10dp"
+            android:background="@drawable/framelayoutcorners">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:id="@+id/yearframetitle"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/yearField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="XXXXX"
+                android:textColor="#40a5ed"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>
