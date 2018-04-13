@@ -19,11 +19,12 @@ public class UserTypeSelectionActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private FirebaseUser user;
+    private final String TAG = "UserTypeSelectionAct";
 
-    RelativeLayout rootLayout ;
-    Button studentButton ;
-    Button facultyButton ;
-    TextView proceedText ;
+    private RelativeLayout rootLayout ;
+    private Button studentButton ;
+    private Button facultyButton ;
+    private TextView proceedText ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class UserTypeSelectionActivity extends AppCompatActivity {
     public void updateUI(FirebaseUser currentUser)
     {
 
-        Log.d("check 1","entered");
+        Log.d(TAG ,"uoloadUI()");
         if(currentUser != null)
         {
             FirebaseUser currUser  = mAuth.getCurrentUser();
